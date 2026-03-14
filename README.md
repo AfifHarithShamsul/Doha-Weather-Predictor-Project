@@ -1,25 +1,29 @@
 Doha-Weather-Predictor-Project
-A machine learning model for predicting next-day temperatures using previous weather data.
+
+This project uses machine learning to predict the next day’s temperatures based on past weather data.
+Doha-Weather-Predictor-Project
 
 Project Overview
-This project utilises a machine-learning approach to predict the next day's maximum temperature in Doha, Qatar. By leveraging historical climate data from 2021 to 2026, the model identifies patterns in local temperature changes to provide accurate short-term forecasts.
+This project uses machine learning to predict the next day’s maximum temperature in Doha, Qatar. 
 
-Key Results
-- **Model Performance:** The model achieved an Accuracy Score of 0.92**.
-- **Accuracy:** This indicates that the model accounts for 92% of the variance in Doha's daily temperature shifts.
-- **Visualisation:** A comparison plot was generated to show the high degree of alignment between the "Actual" observed data and the "Predicted" values.
+Results
+
+* Model Performance: The model reached an accuracy score of 0.92.
+* Visualization: A comparison plot shows how closely the predicted values match the actual observed data.
 
 Skills Demonstrated
-- **Data Science:** Data cleaning, feature engineering, and handling CSV metadata.
-- **Machine Learning:** Implementing Supervised Learning (Linear Regression) via `scikit-learn`.
-- **Data Visualisation:** Creating professional analytical plots using `Matplotlib`.
-- **Statistical Reasoning:** Evaluating model reliability through training/testing splits.
+
+* Data Science
+* Machine Learning
+* Data Visualization:
 
 Tech Stack
-- **Language:** Python 3
-- **Libraries:** Pandas, Scikit-learn, Matplotlib
+
+* Language: Python 3
+* Libraries: Pandas, Scikit-learn, Matplotlib
 
 How to Run
-1. Ensure `doha_weather.csv` is in the same directory as the script.
-2. Install dependencies: `pip install pandas scikit-learn matplotlib`
-3. Execute the script: `python predictor.py`
+
+1. Make sure the file doha_weather.csv is in the same folder as the script.
+2. Install the required packages by running: pip install pandas scikit-learn matplotlib
+3. Run the script : python predictor.py
