@@ -26,4 +26,4 @@ How to Run
 
 1. Make sure the file doha_weather.csv is in the same folder as the script.
 2. Install the required packages by running: pip install pandas scikit-learn matplotlib
-3. Run the script : python predictor.py
+3. Run the script : prediction.py
